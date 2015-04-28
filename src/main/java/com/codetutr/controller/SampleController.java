@@ -9,7 +9,7 @@ public class SampleController {
 
 	@RequestMapping("home")
 	public String loadHomePage(Model m) {
-		m.addAttribute("name", "OpenShift  User!!!! Try out...");
+		m.addAttribute("name", "逗比");
 		return "home";
 	}
 }
