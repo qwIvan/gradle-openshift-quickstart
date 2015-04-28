@@ -9,4 +9,5 @@ echo SETTING GRADLE HOME
 export GRADLE_USER_HOME=$OPENSHIFT_DATA_DIR/gradle
 export GRADLE_HOME=$OPENSHIFT_DATA_DIR/gradle-1.6
 export PATH=$GRADLE_HOME/bin:$PATH
+export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
 gradle build
